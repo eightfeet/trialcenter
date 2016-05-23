@@ -101,7 +101,7 @@
       <a v-link="{ path: '/user/1234/profile/what' }">user</a>
       <a v-link="{ path: '/forbidden' }">forbidden</a> -->
       <!-- use the modal component, pass in the prop -->
-      <modal :show.sync="showModal">
+      <modal :show.sync="showModal" >
         <h3 slot="header" class="fz-ll cyan al-c pdt2 icon-attention-alt">确认</h3>
         <div slot="body" class="al-c fz-m lh-s pdt1 pdb1">
           请确认您预约的时间段<br><span class="cyan">2016年05月15日上午9:00</span>

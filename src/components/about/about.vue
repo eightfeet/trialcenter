@@ -5,7 +5,6 @@
       <buttonbar
         v-touch:tap="handlerSubRouter"
         class="mgb1 w3"
-        small="true"
         setstyle="b">
         子路由
       </buttonbar>

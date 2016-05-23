@@ -1,5 +1,5 @@
 <template>
-  <div v-show="show" class="loadingbox">
+  <div v-show="show" class="loadingbox"  transition="modal">
     <div
       class="loading"
       v-bind:style="{
